@@ -29,3 +29,16 @@ The project is set up to use `postcss-cli` to process your CSS files. You can ad
 ## Contributing
 
 Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.# EduCareProject
+
+Node Dependencies :- 
+npm install
+npm i nodemon
+npm i nodemailer
+npm i otp-generator
+npm i jsonwebtoken
+npm i cloudinary
+npm i razorpay
+npm i cookie-parser
+npm i cors
+npm i express-fileupload
+npm run dev
