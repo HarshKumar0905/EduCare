@@ -77,15 +77,15 @@ const CourseDetailsCard = ({course, setConfirmationModal, handleBuyCourse}) => {
         </div>
 
         <div>
-            <p className='pb-3 pt-6 text-center text-sm text-richblack-25'>
+            <p className='pb-3 pt-6 text-center text-sm text-richblack-25 hidden md:block'>
                 30-Day Money-Back Guarantee
             </p> 
         </div>
         <div>
-            <p className='my-2 text-xl font-semibold '>
+            <p className='my-2 text-xl font-semibold hidden md:block'>
                 This Course Includes :-
             </p>
-            <div className='flex flex-col gap-3 text-sm text-caribbeangreen-100'>
+            <div className='flex flex-col gap-3 text-sm text-caribbeangreen-100 hidden md:block'>
                 {
                     JSON.parse(course?.instructions).map((item, index)=> (
                         <p key={index} className='flex gap-2 items-center'>
@@ -96,7 +96,7 @@ const CourseDetailsCard = ({course, setConfirmationModal, handleBuyCourse}) => {
                 }
             </div>
         </div>
-        <div className='text-center'>
+        <div className='text-center hidden md:block'>
             <button
             className='mx-auto flex items-center gap-2 text-[#00b0f0] bg-black py-2 px-8
             rounded-md transition-all duration-200 hover:scale-95 font-bold'
