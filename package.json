@@ -9,6 +9,7 @@
     "chart.js": "^4.4.2",
     "concurrently": "^8.2.2",
     "copy-to-clipboard": "^3.3.3",
+    "dotenv": "^16.4.5",
     "lucide-react": "^0.367.0",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
