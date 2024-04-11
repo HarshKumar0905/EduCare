@@ -1,0 +1,15 @@
+.code-border {
+    background: linear-gradient(111.93deg,rgba(14,26,45,.24) -1.4%,rgba(17,30,50,.38) 104.96%);
+    border: 1px solid #2d2d3d;
+    border-radius: 15px;
+}
+
+.gradient-custom-1 {
+    background: url("../../../Assets/Images/bghome.svg");
+    background-color: blue;
+}
+
+.gradient-custom-2 {
+    background: url("../../../Assets/Images/bghome.svg");
+    background-color: rgb(227, 9, 9);
+}
