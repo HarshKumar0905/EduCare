@@ -7,6 +7,5 @@ exports.DBConnect = () => {
     .catch((error) => {
         console.log('DB connection failed');
         console.error(error);
-        console.exit(1);
     });
 }

@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:4001/api/v1";
+const BASE_URL = "https://educare-ufwt.onrender.com/api/v1";
 
 // AUTH ENDPOINTS
 export const endpoints = {
