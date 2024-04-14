@@ -16,7 +16,7 @@ import PurchaseHistory from "./Components/Core/Dashboard/PurchaseHistory";
 import Settings from "./Components/Core/Dashboard/Settings/index";
 import Cart from "./Components/Core/Dashboard/Cart";
 import { ACCOUNT_TYPE }  from "./Utils/Constants";
-import { useSelector } from "react-redux";
+import {useDispatch, useSelector } from "react-redux";
 import MyCourses from "./Components/Core/Dashboard/MyCourses";
 import AddCourse from "./Components/Core/Dashboard/AddCourse";
 import Instructor from "./Components/Core/Dashboard/InstructorDashboard.jsx/Instructor";
