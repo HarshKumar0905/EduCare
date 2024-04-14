@@ -16,7 +16,7 @@ import PurchaseHistory from "./Components/Core/Dashboard/PurchaseHistory";
 import Settings from "./Components/Core/Dashboard/Settings/index";
 import Cart from "./Components/Core/Dashboard/Cart";
 import { ACCOUNT_TYPE }  from "./Utils/Constants";
-import {useDispatch, useSelector } from "react-redux";
+import {useSelector } from "react-redux";
 import MyCourses from "./Components/Core/Dashboard/MyCourses";
 import AddCourse from "./Components/Core/Dashboard/AddCourse";
 import Instructor from "./Components/Core/Dashboard/InstructorDashboard.jsx/Instructor";
@@ -28,19 +28,9 @@ import VideoDetails from "./Components/Core/ViewCourse/VideoDetails";
 import OpenRoute from "./Components/Core/Auth/OpenRoute";
 import PrivateRoute from "./Components/Core/Auth/PrivateRoute";
 import Error from "./Pages/Error";
-import { useEffect } from "react";
-import { setToken } from "./Slices/AuthSlice";
-import { setUser } from "./Slices/ProfileSlice";
 
 function App() {
   const { user } = useSelector((state) => state.Profile);
-  const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(setToken(null));
-    dispatch(setUser(null));
-    localStorage.removeItem("token");
-    localStorage.removeItem("existingUser");
-  }, []);
 
   return (
     <div className="w-screen min-h-screen bg-richblack-900 flex flex-col font-inter overflow-x-hidden">
