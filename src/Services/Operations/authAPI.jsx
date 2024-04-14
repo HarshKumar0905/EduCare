@@ -124,7 +124,7 @@ export function logout(navigate) {
     dispatch(setUser(null));
     dispatch(resetCart());
     localStorage.removeItem("token");
-    localStorage.removeItem("user");
+    localStorage.removeItem("existingUser");
     toast.success("Logged Out")
     navigate('/');
   }
