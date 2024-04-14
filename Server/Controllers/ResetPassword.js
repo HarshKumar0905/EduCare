@@ -23,7 +23,7 @@ exports.resetPasswordToken = async (req,res) => {
         const updatedDetails = await User.findOneAndUpdate({email : email},
           {token, resetPasswordExpires : Date.now() + 5*60*1000},
           {new : true});
-        const url = `http://localhost:3000/update-password/${token}`;
+        const url = `https://edu-care-kappa.vercel.app/update-password/${token}`;
         await mailSender(email, `Reset Password Link` , passwordResetLinkEmail(user.firstName, url));
         return res.status(200).json({
             success : true,
