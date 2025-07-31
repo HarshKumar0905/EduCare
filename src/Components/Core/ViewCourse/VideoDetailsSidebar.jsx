@@ -81,7 +81,7 @@ const VideoDetailsSidebar = ({setReviewModal}) => {
                             {
                                 sec.subSection.map((sub) => (
                                     <div className={`${activeStatus === sec?._id ? 'h-[72px]' : ''}
-                                    ${subSectionId === sub?._id ? 'text-lg text-blue-500 font-bold transition-[subSectionId] duration-75' : 
+                                    ${subSectionId === sub?._id ? 'text-md text-blue-500 transition-[subSectionId] duration-75' : 
                                     'text-md text-richblack-5'}
                                     h-0 bg-richblack-900 transition-all flex justify-center
                                     duration-[0.35s] ease-[ease]`} onClick={() => {
