@@ -1,4 +1,4 @@
-const BASE_URL = "https://educare-1fq9.onrender.com/api/v1"
+const BASE_URL = "https://edu-care-kappa.vercel.app/api/v1"
 
 // AUTH ENDPOINTS
 export const endpoints = {
