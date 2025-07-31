@@ -69,7 +69,7 @@ exports.paymentSuccessEmail = (name, amount, orderId, paymentId) => {
       <body>
           <div class="container">
               <a href="https://edu-care-kappa.vercel.app/"><img class="logo" 
-              src="https://res.cloudinary.com/dfscqg5dc/image/upload/v1712678630/ImageDatabase_1/zevkzr3fgyre8m2slyhv.png"
+              src="https://res.cloudinary.com/dfscqg5dc/image/upload/v1753992924/ImageDatabase_1/u351q2udq673gu4jkii1.png"
                       alt="EduCare Logo"></a>
               <div class="message">Course Payment Confirmation</div>
               <div class="body">

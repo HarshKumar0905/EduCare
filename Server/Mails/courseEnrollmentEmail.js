@@ -69,7 +69,7 @@ exports.courseEnrollmentEmail = (courseName, name) => {
     <body>
         <div class="container">
             <a href="https://edu-care-kappa.vercel.app/"><img class="logo" 
-            src="https://res.cloudinary.com/dfscqg5dc/image/upload/v1712678630/ImageDatabase_1/zevkzr3fgyre8m2slyhv.png"
+            src="https://res.cloudinary.com/dfscqg5dc/image/upload/v1753992924/ImageDatabase_1/u351q2udq673gu4jkii1.png"
                     alt="EduCare Logo"></a>
             <div class="message">Course Registration Confirmation</div>
             <div class="body">
@@ -78,7 +78,7 @@ exports.courseEnrollmentEmail = (courseName, name) => {
                     are excited to have you as a participant!</p>
                 <p>Please log in to your learning dashboard to access the course materials and start your learning journey.
                 </p>
-                <a class="cta" href="http://localhost:3000/dashboard/enrolled-courses">Go to Dashboard</a>
+                <a class="cta" href="https://edu-care-kappa.vercel.app/dashboard/enrolled-courses">Go to Dashboard</a>
             </div>
             <div class="support">If you have any questions or need assistance, please feel free to reach out to us at <a
                     href="mailto:info@educare.com">info@educare.com</a>. We are here to help!</div>
