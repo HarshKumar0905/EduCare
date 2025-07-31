@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
     cors({
-        origin : 'https://edu-care-kappa.vercel.app',
+        origin : '*',
         credentails : true
     })
 );
