@@ -27,13 +27,13 @@ const NavLinks = ({matchRoute, token, subLinks, user, totalItems}) => {
                                     <p>{link.title}</p>
                                     <FaAngleDown/>
                                     <div className={`invisible absolute md:left-[50%] 
-                                    md:translate-x-[-49%] ${subLinks.length ? "group-hover:visible" : "invisible"}
+                                    md:translate-x-[-49%] ${subLinks?.length ? "group-hover:visible" : "invisible"}
                                     group-hover:top-[42px] top-[84px] z-50 flex flex-col rounded-md bg-richblack-5 p-4 text-richblack-900
                                     transition-all duration-200 lg:w-[300px] opacity-0 group-hover:opacity-100`}>
                                         <div className='absolute left-[50%] top-0
                                         translate-x-[80%] translate-y-[-45%] h-6 w-6 rotate-45 rounded bg-richblack-5'></div>
                                         {
-                                            subLinks.length ? (
+                                            subLinks?.length ? (
                                                 subLinks.map((subLink, index) => (
                                                     <Link key={index} className='rounded-lg bg-transparent py-4 pl-4
                                                     hover:bg-richblack-50 transition-all duration-200'
@@ -48,7 +48,7 @@ const NavLinks = ({matchRoute, token, subLinks, user, totalItems}) => {
                                 </div>) : 
                                 (<Link to={link.path}>
                                   <p className={`
-                                  ${matchRoute(link.path)?'text-[#00b0f0]':'text-richblack-25'}`}>
+                                  ${matchRoute(link?.path)?'text-[#00b0f0]':'text-richblack-25'}`}>
                                   {link.title}
                                   </p>
                                 </Link>)
